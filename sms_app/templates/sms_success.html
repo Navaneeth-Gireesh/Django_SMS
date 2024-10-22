@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SMS Confirmation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Internal CSS -->
+        <style>
+            /* Apply a consistent box-sizing model */
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Body styles */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                display: flex;
+                flex-direction: column; /* Align items vertically */
+                justify-content: center; /* Center content vertically */
+                align-items: center; /* Center content horizontally */
+                height: 100vh; /* Full viewport height */
+                text-align: center; /* Center align text */
+            }
+
+            h1 {
+                margin-bottom: 10px; /* Space below the heading */
+                color: #28a745; /* Green color for the heading */
+            }
+
+            p {
+                font-size: 1.1em; /* Slightly larger text */
+                color: #555; /* Dark gray color for the paragraph */
+                margin-bottom: 20px; /* Space below the paragraph */
+            }
+
+            /* Button styles */
+            a {
+                display: inline-block; /* Make link look like a button */
+                padding: 10px 20px; /* Padding for button */
+                background-color: #007bff; /* Blue background color */
+                color: white; /* White text color */
+                text-decoration: none; /* Remove underline from link */
+                border-radius: 4px; /* Rounded corners */
+                font-size: 1em; /* Font size */
+                transition: background-color 0.3s; /* Transition effect */
+            }
+
+            a:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SMS Sent Successfully</h1>
+        <p>Your SMS has been sent successfully.</p>
+        <a href="{% url 'sample_sms' %}">Go Back</a>
+        <script src="" async defer></script>
+    </body>
+</html>
