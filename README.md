@@ -2,6 +2,12 @@
 
 This project demonstrates how to send SMS messages from a Django application using the Twilio API.
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Pull%20Request%20Views-0-blue" alt="Pull Requests" />
+    <img src="https://img.shields.io/badge/Downloads-0-brightgreen" alt="Downloads" />
+</p>
+
+
 ## Requirements
 
 - Python 3.8 and later
@@ -25,7 +31,7 @@ This project demonstrates how to send SMS messages from a Django application usi
 
 3. **Install required packages:**
    ```bash
-   pip install django twilio
+   pip install twilio
    ```
 
 ## Configuration
